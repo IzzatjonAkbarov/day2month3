@@ -1,0 +1,28 @@
++ -* /
+logical operators{
+    or and not || && !
+}
+solishtiruvchi operatorlar{
+    == = === < <= >=
+}
+math object{
+     console.log(Math.round) hisoblaydi taqriban
+     console.log(Math.ceil) 0.1 kop bolsa ham tepaga chiqaradi
+     console.log(Math.floor)
+     console.log(Math.trunc)
+     console.log(Math.sign)
+     console.log(Math.pow)
+     console.log(Math.sqrt)
+     console.log(Math.abs)
+     console.log(Math.min)
+     console.log(Math.max)
+
+
+
+
+
+
+
+
+
+}

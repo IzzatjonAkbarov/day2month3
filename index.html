@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Metascan</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link
+      rel="shortcut icon"
+      href="./src/assets/img/mainlogo.png"
+      type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+  </head>
+  <body class="bg-[#B5B5B5]">
+    <nav class="bg-white">
+      <header class="border-b">
+        <div
+          class="container1 flex items-center justify-between text-[15px] py-4">
+          <label class="hidden max-[1174px]:block text-[20px]" for="check"
+            ><i class="fa-solid fa-bars-staggered"></i>
+          </label>
+          <div class="flex items-center justify-between gap-11">
+            <a href="">
+              <img src="./src/assets/svg/logo.svg" alt="" />
+            </a>
+            <a href="" class="flex items-center gap-1 max-[1323px]:hidden">
+              <img src="./src/assets/svg/location.svg" alt="" />
+              <p class="">Йошкар-Ола</p></a
+            >
+          </div>
+          <ul
+            class="flex items-center justify-between gap-5 max-[1174px]:hidden">
+            <li>
+              <select class="outline-none" name="" id="">
+                <option value="">О компании</option>
+                <option value="">О компании</option>
+                <option value="">О компании</option>
+                <option value="">О компании</option>
+              </select>
+            </li>
+            <li><a href="">Блог</a></li>
+            <li><a href="">Частые вопросы</a></li>
+            <li><a href="">Сервис и гарантия</a></li>
+            <li><a href="">Доставка и оплата</a></li>
+            <li><a href="">Дилерам</a></li>
+            <li><a href="">Контакты</a></li>
+          </ul>
+          <div class="flex items-center gap-5">
+            <div class="flex flex-col gap-0 max-[1562px]:hidden">
+              <a href="" class="font-medium text-[28px] text-black p-0 m-0"
+                >8 800 444-00-27</a
+              >
+              <p class="text-[11px] text-[#555]">бесплатно по России</p>
+            </div>
+            <button
+              class="border rounded-[10px] py-[13px] px-[24px] hover:bg-black hover:text-white transition-all active:scale-[0.9] max-[365px]:p-3">
+              <p class="max-[365px]:hidden">Заказать звонок</p>
+              <div
+                class="hidden max-[365px]:block hover:filter hover:brightness-0 hover:invert-1 text-[20px]">
+                <i class="fa-solid fa-phone-volume"></i>
+              </div>
+            </button>
+            <div class="hidden max-[1174px]:block max-[519px]:hidden">
+              <div class="flex items-center gap-2">
+                <button
+                  class="border flex items-center gap-2 rounded-[10px] py-[13px] px-[24px] hover:bg-black hover:text-white transition-all active:scale-[0.9] max-[365px]:p-3">
+                  <p class="hover:text-white">
+                    <i
+                      class="fa-solid fa-arrow-right-to-bracket text-[20px]"></i>
+                    Вход
+                  </p>
+                </button>
+                <button
+                  class="border rounded-[10px] py-[13px] px-[24px] hover:bg-black hover:text-white transition-all active:scale-[0.9] max-[365px]:p-3 max-[616px]:hidden">
+                  <i class="fa-solid fa-cart-shopping text-[20px]"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <header class="max-[768px]:hidden">
+        <div
+          class="container1 flex justify-between gap-5 items-center py-4 max-[1174px]:justify-center">
+          <ul class="flex justify-between gap-10 max">
+            <li><a href="">Металлоискатели</a></li>
+            <li><a href="">Оборудование для безопасности</a></li>
+            <li><a href="">Тактические металлоискатели</a></li>
+            <li class="max-[937px]:hidden">
+              <a href="">Очистители воздуха</a>
+            </li>
+            <li class="max-[1424px]:hidden">
+              <a href="">Дополнения и аксессуары</a>
+            </li>
+          </ul>
+          <div class="flex items-center gap-2 max-[1174px]:hidden">
+            <button
+              class="border flex items-center gap-2 rounded-[10px] py-[13px] px-[24px] hover:bg-black hover:text-white transition-all active:scale-[0.9] max-[365px]:p-3">
+              <i class="fa-solid fa-arrow-right-to-bracket text-[20px]"></i>
+              <p>Вход</p>
+            </button>
+            <button
+              class="border rounded-[10px] py-[13px] px-[24px] hover:bg-black hover:text-white transition-all active:scale-[0.9] max-[365px]:p-3">
+              <i class="fa-solid fa-cart-shopping text-[20px]"></i>
+            </button>
+          </div>
+        </div>
+      </header>
+    </nav>
+    <section class="mt-8">
+      <div class="container1">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div
+                class="flex flex-row w-full bg-white gap-5 rounded-[20px] justify-between max-[1300px]:flex-col">
+                <div
+                  class="basis-[30%] flex items-start justify-center flex-col px-[50px] max-[390px]:px-[20px] max-[1300px]:py-[30px]">
+                  <h1
+                    class="max-[1400px]:text-[40px] text-[48px] font-medium max-[490px]:text-[36px] max-[329px]:text-[26px]">
+                    Откройте для себя мир поиска и безопасности
+                  </h1>
+                  <p
+                    class="text-[20px] font-normal pt-[20px] pb-[60px] max-[664px]:py-[15px] max-[490px]:text-[16px] max-[329px]:text-[13px]">
+                    Все о компании «Метаскан» за одну минуту
+                  </p>
+                  <button
+                    class="border text-white bg-black rounded-[10px] py-[13px] px-[24px] hover:bg-white hover:text-black transition-all active:scale-[0.9] max-[329px]:text-[12px] max-[300px]:hidden">
+                    Смотреть видео
+                  </button>
+                </div>
+
+                <!-- Swiper JS -->
+
+                <div class="basis-[70%] max-[1300px]:h-[50vh]">
+                  <video
+                    controls
+                    poster="./src/assets/img/manphone.png "
+                    class="w-[100%] rounded-r-[20px] max-[1300px]:rounded-[20px] max-[329px]:rounded-[10px] max-[350px]:h-[]"
+                    src="./src/assets/video/img_vb6 copy.mp4"></video>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="flex flex-row w-full bg-white gap-5 rounded-[20px] justify-between max-[1300px]:flex-col">
+                <div
+                  class="basis-[30%] flex items-start justify-center flex-col px-[50px] max-[390px]:px-[20px] max-[1300px]:py-[30px]">
+                  <h1
+                    class="max-[1400px]:text-[40px] text-[48px] font-medium max-[490px]:text-[36px] max-[329px]:text-[26px]">
+                    Откройте для себя мир поиска и безопасности
+                  </h1>
+                  <p
+                    class="text-[20px] font-normal pt-[20px] pb-[60px] max-[664px]:py-[15px] max-[490px]:text-[16px] max-[329px]:text-[13px]">
+                    Все о компании «Метаскан» за одну минуту
+                  </p>
+                  <button
+                    class="border text-white bg-black rounded-[10px] py-[13px] px-[24px] hover:bg-white hover:text-black transition-all active:scale-[0.9] max-[329px]:text-[12px] max-[300px]:hidden">
+                    Смотреть видео
+                  </button>
+                </div>
+
+                <!-- Swiper JS -->
+
+                <div class="basis-[70%] max-[1300px]:h-[50vh]">
+                  <video
+                    controls
+                    poster="./src/assets/img/manphone.png "
+                    class="w-[100%] rounded-r-[20px] max-[1300px]:rounded-[20px] max-[329px]:rounded-[10px] max-[350px]:h-[]"
+                    src="./src/assets/video/img_vb6 copy.mp4"></video>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="flex flex-row w-full bg-white gap-5 rounded-[20px] justify-between max-[1300px]:flex-col">
+                <div
+                  class="basis-[30%] flex items-start justify-center flex-col px-[50px] max-[390px]:px-[20px] max-[1300px]:py-[30px]">
+                  <h1
+                    class="max-[1400px]:text-[40px] text-[48px] font-medium max-[490px]:text-[36px] max-[329px]:text-[26px]">
+                    Откройте для себя мир поиска и безопасности
+                  </h1>
+                  <p
+                    class="text-[20px] font-normal pt-[20px] pb-[60px] max-[664px]:py-[15px] max-[490px]:text-[16px] max-[329px]:text-[13px]">
+                    Все о компании «Метаскан» за одну минуту
+                  </p>
+                  <button
+                    class="border text-white bg-black rounded-[10px] py-[13px] px-[24px] hover:bg-white hover:text-black transition-all active:scale-[0.9] max-[329px]:text-[12px] max-[300px]:hidden">
+                    Смотреть видео
+                  </button>
+                </div>
+
+                <!-- Swiper JS -->
+
+                <div class="basis-[70%] max-[1300px]:h-[50vh]">
+                  <video
+                    controls
+                    poster="./src/assets/img/manphone.png "
+                    class="w-[100%] rounded-r-[20px] max-[1300px]:rounded-[20px] max-[329px]:rounded-[10px] max-[350px]:h-[]"
+                    src="./src/assets/video/img_vb6 copy.mp4"></video>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="flex flex-row w-full bg-white gap-5 rounded-[20px] justify-between max-[1300px]:flex-col">
+                <div
+                  class="basis-[30%] flex items-start justify-center flex-col px-[50px] max-[390px]:px-[20px] max-[1300px]:py-[30px]">
+                  <h1
+                    class="max-[1400px]:text-[40px] text-[48px] font-medium max-[490px]:text-[36px] max-[329px]:text-[26px]">
+                    Откройте для себя мир поиска и безопасности
+                  </h1>
+                  <p
+                    class="text-[20px] font-normal pt-[20px] pb-[60px] max-[664px]:py-[15px] max-[490px]:text-[16px] max-[329px]:text-[13px]">
+                    Все о компании «Метаскан» за одну минуту
+                  </p>
+                  <button
+                    class="border text-white bg-black rounded-[10px] py-[13px] px-[24px] hover:bg-white hover:text-black transition-all active:scale-[0.9] max-[329px]:text-[12px] max-[300px]:hidden">
+                    Смотреть видео
+                  </button>
+                </div>
+
+                <!-- Swiper JS -->
+
+                <div class="basis-[70%] max-[1300px]:h-[50vh]">
+                  <video
+                    controls
+                    poster="./src/assets/img/manphone.png "
+                    class="w-[100%] rounded-r-[20px] max-[1300px]:rounded-[20px] max-[329px]:rounded-[10px]"
+                    src="./src/assets/video/img_vb6 copy.mp4"></video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pt-10">
+      <div class="container1">
+        <div class="swiper Swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div
+                class="bg-[#010400] px-[26px] py-[36px] text-white rounded-[20px] flex items-center card1 h-[323px]">
+                <div class="flex flex-col gap-5">
+                  <h1 class="font-bold text-[38px] max-[365px]:text-[25px]">
+                    Распродажа
+                  </h1>
+                  <p class="font-medium text-[22px] max-[365px]:text-[18px]">
+                    Сэкономьте на <br />
+                    покупке<br />
+                    грунтовые <br />
+                    металлоискатели
+                  </p>
+                  <button
+                    class="rounded-[10px] p-3 bg-[#ffcd11] text-black font-bold text-[20px] w-fit max-[365px]:text-[13px]">
+                    до 45%
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="bg-[#010400] px-[26px] py-[36px] text-white rounded-[20px] flex items-center card2 h-[323px]">
+                <div class="flex flex-col gap-5 h-[100%]">
+                  <h1
+                    class="font-bold text-[38px] text-[#31d8ea] max-[365px]:text-[25px]">
+                    Подводные <br />
+                    металлоискатели
+                  </h1>
+                  <p
+                    class="font-medium text-[22px] text-[#31d8ea] max-[365px]:text-[18px]">
+                    поиск на глубинах <br />
+                    до 200 метров
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="bg-[#010400] px-[26px] py-[36px] text-white rounded-[20px] flex items-center card3 h-[323px]">
+                <div class="flex flex-col gap-5">
+                  <div class="flex flex-col">
+                    <p
+                      class="bg-[#ffcd11] w-fit px-3 py-1 text-[18px] font-bold text-black border-none rounded-t-[12px] max-[365px]:text-[13px]">
+                      2022
+                    </p>
+                    <p
+                      class="bg-[#ffcd11] w-fit px-3 py-1 text-black font-bold border-none rounded-b-[12px] text-[22px] rounded-tr-[12px]">
+                      Новинка
+                    </p>
+                  </div>
+                  <h1 class="font-bold text-[38px] max-[365px]:text-[25px]">
+                    Alfamarine 5000
+                  </h1>
+                  <p class="font-medium text-[22px] max-[365px]:text-[18px]">
+                    Тактический <br />
+                    металлоискатель<br />
+                    для поиска мин
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="bg-[#010400] px-[26px] py-[36px] text-white rounded-[20px] flex items-center card1 h-[323px]">
+                <div class="flex flex-col gap-5">
+                  <h1 class="font-bold text-[38px] max-[365px]:text-[25px]">
+                    Подводные <br />
+                    металлоискатели
+                  </h1>
+                  <p class="font-medium text-[22px] max-[365px]:text-[18px]">
+                    поиск на глубинах <br />
+                    до 200 метров
+                  </p>
+                  <button
+                    class="rounded-[10px] p-3 bg-[#ffcd11] text-black font-bold text-[20px] w-fit max-[365px]:text-[13px]">
+                    до 45%
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+      var swiper = new Swiper(".Swiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+
+        breakpoints: {
+          280: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          774: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1264: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+        },
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./main.js"></script>
+    <!-- <script src="./js/firsttask.js"></script> -->
+    <!-- <script src="./js/second.js"></script> -->
+    <!-- <script src="./js/third.js"></script> -->
+    <!-- <script src="./js/fourth.js"></script> -->
+    <!-- <script src="./js/fifth.js"></script> -->
+    <!-- <script src="./js/sixth.js"></script> -->
+    <!-- <script src="./js/seventh.js"></script> -->
+    <!-- <script src="./js/eight.js"></script> -->
+    <!-- <script src="./js/nine.js"></script> -->
+    <!-- <script src="./js/tenth.js"></script> -->
+    <!-- <script src="./js/last.js"></script> -->
+  </body>
+</html>
+<input class="hidden" id="check" type="checkbox" />
+<header class="header">
+  <div
+    class="container1 flex items-start pl-3 justify-between text-[15px] py-4 flex-col relative">
+    <label class="absolute top-[5%] right-[5%]" for="check"
+      ><i class="fa-solid fa-xmark"></i
+    ></label>
+    <div class="flex text-start items-start justify-between gap-11 flex-col">
+      <a href="">
+        <img src="./src/assets/svg/logo.svg" alt="" />
+      </a>
+      <a href="" class="flex items-start gap-1 mb-5">
+        <img src="./src/assets/svg/location.svg" alt="" />
+        <p class="">Йошкар-Ола</p></a
+      >
+    </div>
+    <ul class="flex items-start justify-between gap-5 flex-col">
+      <li>
+        <select class="outline-none" name="" id="">
+          <option value="">О компании</option>
+          <option value="">О компании</option>
+          <option value="">О компании</option>
+          <option value="">О компании</option>
+        </select>
+      </li>
+      <li><a href="">Блог</a></li>
+      <li><a href="">Частые вопросы</a></li>
+      <li><a href="">Сервис и гарантия</a></li>
+      <li><a href="">Доставка и оплата</a></li>
+      <li><a href="">Дилерам</a></li>
+      <li><a href="">Контакты</a></li>
+    </ul>
+    <ul class="flex justify-between gap-5 flex-col mt-5">
+      <li class="max-md:block hidden"><a href="">Металлоискатели</a></li>
+      <li class="max-md:block hidden">
+        <a href="">Оборудование для безопасности</a>
+      </li>
+      <li class="max-md:block hidden">
+        <a href="">Тактические металлоискатели</a>
+      </li>
+      <li class="hidden max-[937 px]:block">
+        <a href="">Очистители воздуха</a>
+      </li>
+      <li class="hidden max-md:block">
+        <a href="">Дополнения и аксессуары</a>
+      </li>
+    </ul>
+    <div class="flex items-start gap-5 flex-col">
+      <div class="flex flex-col gap-0">
+        <a href="" class="font-medium text-[28px] text-black p-0 m-0"
+          >8 800 444-00-27</a
+        >
+        <p class="text-[11px] text-[#555]">бесплатно по России</p>
+      </div>
+      <button
+        class="border rounded-[10px] py-[13px] px-[24px] hover:bg-black hover:text-white transition-all active:scale-[0.9]">
+        Заказать звонок
+      </button>
+    </div>
+    <div class="flex gap-5 mt-5">
+      <button
+        class="border flex items-center gap-2 rounded-[10px] py-[13px] px-[24px] hover:bg-black hover:text-white transition-all active:scale-[0.9] max-[365px]:p-3">
+        <i class="fa-solid fa-arrow-right-to-bracket text-[20px]"></i>
+        <p>Вход</p>
+      </button>
+      <button
+        class="border rounded-[10px] py-[13px] px-[24px] hover:bg-black hover:text-white transition-all active:scale-[0.9] max-[365px]:p-3">
+        <i class="fa-solid fa-cart-shopping text-[20px]"></i>
+      </button>
+    </div>
+  </div>
+</header>
